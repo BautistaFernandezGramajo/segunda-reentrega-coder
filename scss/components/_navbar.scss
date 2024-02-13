@@ -1,6 +1,6 @@
 
 header{
-
+    background-color: #292b2c;
     .vertical-divider{
         border-left: 2px solid white;
         display: inline-block;
@@ -10,7 +10,7 @@ header{
     }
     
     .navbar-brand{
-        margin-right: 0 !important;
+        margin-right: 0;
     }
     
     span{
@@ -18,15 +18,15 @@ header{
     }
 
     a{
-        
-        padding-bottom: 2px !important; 
-        border-bottom: 2px solid transparent !important;
-        transition: border-bottom-color 0.7s ease !important;
+        color: white;
+        padding-bottom: 2px ; 
+        border-bottom: 2px solid transparent;
+        transition: border-bottom-color 0.7s ease ;
     }
 
     a:hover{
-        color: $color-primario !important; 
-        border-bottom-color: $color-primario !important;
+        color: $color-primario ; 
+        border-bottom-color: $color-primario ;
     }
 
 

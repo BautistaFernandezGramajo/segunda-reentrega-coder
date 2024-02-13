@@ -15,17 +15,15 @@ body {
   height: 100vh;
 }
 
-a {
-  text-decoration: none !important;
-  color: white !important;
-}
-
 main {
   flex: 1;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgb(0, 0, 0) 52%, rgba(2, 27, 36, 0.9381129161) 100%);
 }
 
+header {
+  background-color: #292b2c;
+}
 header .vertical-divider {
   border-left: 2px solid white;
   display: inline-block;
@@ -34,26 +32,31 @@ header .vertical-divider {
   margin-right: 10px;
 }
 header .navbar-brand {
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 header span {
   color: #06A3DF;
 }
 header a {
-  padding-bottom: 2px !important;
-  border-bottom: 2px solid transparent !important;
-  transition: border-bottom-color 0.7s ease !important;
+  color: white;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.7s ease;
 }
 header a:hover {
-  color: #06A3DF !important;
-  border-bottom-color: #06A3DF !important;
+  color: #06A3DF;
+  border-bottom-color: #06A3DF;
 }
 header .navbar .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%286, 163, 223, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
 footer a:hover {
-  color: #06A3DF !important;
+  color: #06A3DF;
 }
 footer h5 {
   border-bottom: 1px solid #008285;
@@ -123,7 +126,7 @@ footer small {
   align-items: center;
 }
 .main__clientes .section__clientes .card {
-  margin: 20px !important;
+  margin: 20px;
   display: flex;
   border: 1px solid #06A3DF;
   border-radius: 9px;
@@ -189,6 +192,30 @@ footer small {
 }
 .section__servicios * {
   margin: 5px;
+}
+
+.section_sobreNosotros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.section_sobreNosotros h2 {
+  color: #06A3DF;
+}
+.section_sobreNosotros h3 {
+  color: #008285;
+}
+.section_sobreNosotros div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  padding: 10px;
 }
 
 @media (max-width: 250px) {

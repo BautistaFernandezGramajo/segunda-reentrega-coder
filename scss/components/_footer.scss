@@ -1,6 +1,10 @@
 footer{
+    a{
+        text-decoration: none ;
+        color:white;
+    }
     a:hover{
-        color: $color-primario !important; 
+        color: $color-primario; 
     }
     h5{
         border-bottom: 1px solid $color-secundario;
