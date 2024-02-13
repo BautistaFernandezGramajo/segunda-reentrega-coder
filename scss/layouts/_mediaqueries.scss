@@ -1,0 +1,33 @@
+@media (max-width: 250px) {
+    .logo__text {
+        font-size: 5vw; 
+    }
+    .logo__image{
+        width:5vw ;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .section__clientes{
+        flex-direction: column;
+    }
+    .section__contacto {
+        grid-template-rows: auto;
+        grid-template-columns: 1fr; 
+        height: auto; 
+
+        &>div,iframe{
+            width: 100vw ;
+           
+        }
+
+        iframe{
+            margin: 10px;
+        }
+
+
+    }
+}
+

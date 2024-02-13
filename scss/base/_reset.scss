@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lexend_Tera';
+    src: url(../assets/fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'Lexend_Tera', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+main {
+    flex: 1; 
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 52%, rgba(2,27,36,0.9381129160648635) 100%);
+}

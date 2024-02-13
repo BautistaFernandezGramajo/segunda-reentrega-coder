@@ -1,0 +1,37 @@
+
+header{
+
+    .vertical-divider{
+        border-left: 2px solid white;
+        display: inline-block;
+        height: 20px;
+        margin-left: 10px; 
+        margin-right: 10px; 
+    }
+    
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+    
+    span{
+        color:$color-primario;
+    }
+
+    a{
+        
+        padding-bottom: 2px !important; 
+        border-bottom: 2px solid transparent !important;
+        transition: border-bottom-color 0.7s ease !important;
+    }
+
+    a:hover{
+        color: $color-primario !important; 
+        border-bottom-color: $color-primario !important;
+    }
+
+
+    .navbar .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%286, 163, 223, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+}
