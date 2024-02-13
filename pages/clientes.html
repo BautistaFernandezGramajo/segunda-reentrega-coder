@@ -1,160 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Link de bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>IT Proactive - Clientes</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-            <div class="container-fluid">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <div
+            class="d-flex align-items-center justify-content-between flex-shrink-1"
+          >
+            <a class="navbar-brand logo__text" href="#">
+              <img
+                src="../assets/images/logo.png"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="d-inline-block align-text-top logo__image"
+              />
 
-                <div class="d-flex align-items-center justify-content-between flex-shrink-1">
-                    <a class="navbar-brand logo__text" href="#">
-                        <img src="../assets/images/logo.png" alt="Logo" width="30" height="24"
-                            class="d-inline-block align-text-top logo__image">
+              <span>IT Pro</span>active</a
+            >
+          </div>
 
-                        <span>IT Pro</span>active</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-
-                </div>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Servicios
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
-                                    <li><a class="dropdown-item" href="servicios.html">ESET Antivirus </a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="servicios.html">Servicio técnico</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="sobreNosotros.html">Sobre Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="clientes.html">Clientes</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Menú
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
-
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="servicios.html"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Servicios
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="servicios.html"
+                        >ESET Antivirus
+                      </a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="servicios.html"
+                        >Servicio técnico</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sobreNosotros.html"
+                    >Sobre Nosotros</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="clientes.html">Clientes</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="main__clientes">
-        <h2>Nuestros clientes</h2>
-               <section class="section__clientes">
-                
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top img__clientes" src="../assets/images/foto_personal.png" alt="Card image cap">
-                    <div class="card-body bg-dark text-white d-flex justify-content-center">
-                      <h5 class="card-title">Cliente 1</h5>
-                    </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top img__clientes" src="../assets/images/foto_personal.png" alt="Card image cap">
-                    <div class="card-body bg-dark text-white d-flex justify-content-center ">
-                      <h5 class="card-title">Cliente 2</h5>
-                    </div>
-                  </div>
-
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top img__clientes" src="../assets/images/foto_personal.png" alt="Card image cap">
-                    <div class="card-body bg-dark text-white d-flex justify-content-center">
-                      <h5 class="card-title">Cliente 3</h5>
-                    </div>
-                  </div>
-                  
-
-               </section>
-       
-    </main>
-
-
-
-    <footer class="container-fluid bg-dark text-white text-center">
-
-        <div class="row p-5">
-
-            <div class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center  pb-2 text-start
-          ">
-                <h5><span>IT Pro</span>active</h5>
-                <p>Neuquén, Argentina.</p>
-                <small> © Todos los derechos reservados</small>
-            </div>
-
-            <div class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start
-          ">
-                <h5>Contacto</h5>
-                <ul>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Whatsapp</a></li>
-                </ul>
-
-            </div>
-
-            <div class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start">
-                <h5>Servicios</h5>
-                <ul>
-                    <li><a href="#">ESET Antivirus</a></li>
-                    <li><a href="#">Servicio tecnico</a></li>
-                </ul>
-            </div>
-
-            <div class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start ">
-                <h5>Empresa</h5>
-
-                <ul>
-                    <li><a href="#">Sobre Nosotros</a></li>
-                    <li><a href="#">Clientes</a></li>
-                </ul>
-            </div>
+      <h2>Nuestros clientes</h2>
+      <section class="section__clientes">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img__clientes"
+            src="../assets/images/foto_personal.png"
+            alt="Card image cap"
+          />
+          <div
+            class="card-body bg-dark text-white d-flex justify-content-center"
+          >
+            <h5 class="card-title">Cliente 1</h5>
+          </div>
         </div>
 
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img__clientes"
+            src="../assets/images/foto_personal.png"
+            alt="Card image cap"
+          />
+          <div
+            class="card-body bg-dark text-white d-flex justify-content-center"
+          >
+            <h5 class="card-title">Cliente 2</h5>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top img__clientes"
+            src="../assets/images/foto_personal.png"
+            alt="Card image cap"
+          />
+          <div
+            class="card-body bg-dark text-white d-flex justify-content-center"
+          >
+            <h5 class="card-title">Cliente 3</h5>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white text-center">
+      <div class="row p-5">
+        <div
+          class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start"
+        >
+          <h5><span>IT Pro</span>active</h5>
+          <p>Neuquén, Argentina.</p>
+          <small> © Todos los derechos reservados</small>
+        </div>
+
+        <div
+          class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start"
+        >
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Whatsapp</a></li>
+          </ul>
+        </div>
+
+        <div
+          class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start"
+        >
+          <h5>Servicios</h5>
+          <ul>
+            <li><a href="#">ESET Antivirus</a></li>
+            <li><a href="#">Servicio tecnico</a></li>
+          </ul>
+        </div>
+
+        <div
+          class="col-xl-3 col-lg-12 d-flex flex-wrap flex-column align-items-center pb-2 text-start"
+        >
+          <h5>Empresa</h5>
+
+          <ul>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Clientes</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- Script de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

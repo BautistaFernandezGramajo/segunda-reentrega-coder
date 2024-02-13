@@ -1,37 +1,35 @@
+header {
+  background-color: #292b2c;
 
-header{
-    background-color: #292b2c;
-    .vertical-divider{
-        border-left: 2px solid white;
-        display: inline-block;
-        height: 20px;
-        margin-left: 10px; 
-        margin-right: 10px; 
-    }
-    
-    .navbar-brand{
-        margin-right: 0;
-    }
-    
-    span{
-        color:$color-primario;
-    }
+  .vertical-divider {
+    border-left: 2px solid white;
+    display: inline-block;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-    a{
-        color: white;
-        padding-bottom: 2px ; 
-        border-bottom: 2px solid transparent;
-        transition: border-bottom-color 0.7s ease ;
-    }
+  .navbar-brand {
+    margin-right: 0;
+  }
 
-    a:hover{
-        color: $color-primario ; 
-        border-bottom-color: $color-primario ;
-    }
+  span {
+    color: $color-primario;
+  }
 
+  a {
+    color: white;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.7s ease;
+  }
 
-    .navbar .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%286, 163, 223, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
+  a:hover {
+    color: $color-primario;
+    border-bottom-color: $color-primario;
+  }
 
+  .navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%286, 163, 223, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
 }

@@ -1,20 +1,24 @@
-footer{
-    a{
-        text-decoration: none ;
-        color:white;
-    }
-    a:hover{
-        color: $color-primario; 
-    }
-    h5{
-        border-bottom: 1px solid $color-secundario;
-        padding-bottom: 5px;
-    }
-    span{
-        color:$color-primario;
-    }
-    small{
-        color: $color-secundario;
-        font-size: x-small;
-    }
+footer {
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: $color-primario;
+  }
+
+  h5 {
+    border-bottom: 1px solid $color-secundario;
+    padding-bottom: 5px;
+  }
+
+  span {
+    color: $color-primario;
+  }
+
+  small {
+    color: $color-secundario;
+    font-size: x-small;
+  }
 }
