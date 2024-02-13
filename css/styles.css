@@ -75,6 +75,7 @@ footer small {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: auto;
 }
 
 .section__index {
@@ -166,10 +167,6 @@ footer small {
 .section__contacto > div:nth-child(2) p {
   text-align: center;
   padding-top: 20px;
-}
-
-.main__index {
-  height: auto;
 }
 
 .section__servicios {
