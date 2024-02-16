@@ -6,17 +6,17 @@
   align-items: center;
   justify-content: center;
 
-  h2 {
+  h1 {
     color: $color-primario;
   }
 
-  h3 {
+  h2 {
     color: $color-secundario;
   }
 
   p,
-  h2,
-  h3 {
+  h1,
+  h2 {
     width: 60%;
     padding: 10px;
   }

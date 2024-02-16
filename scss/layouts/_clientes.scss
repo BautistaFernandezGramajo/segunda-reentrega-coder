@@ -1,10 +1,7 @@
 .main__clientes {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
+  @include flex($direction: column, $justify: space-evenly, $align: center);
 
-  h2 {
+  h1 {
     color: $color-primario;
     border-bottom: 2px solid $color-primario;
     padding-bottom: 5px;
