@@ -70,32 +70,6 @@ footer small {
   font-size: x-small;
 }
 
-@media (max-width: 250px) {
-  .logo__text {
-    font-size: 5vw;
-  }
-  .logo__image {
-    width: 5vw;
-    height: auto;
-  }
-}
-@media (max-width: 990px) {
-  .section__clientes {
-    flex-direction: column;
-  }
-  .section__contacto {
-    grid-template-rows: auto;
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-  .section__contacto > div,
-  .section__contacto iframe {
-    width: 100vw;
-  }
-  .section__contacto iframe {
-    margin: 10px;
-  }
-}
 .main__index {
   display: flex;
   flex-direction: column;
@@ -216,7 +190,12 @@ footer small {
   padding: 10px;
 }
 .section__servicios .logo_eset {
-  width: auto;
+  width: 150px;
+  padding: 10px;
+  height: 50px;
+}
+.section__servicios .logo_eset_gold {
+  width: 150px;
   padding: 10px;
   height: 50px;
 }
@@ -246,6 +225,33 @@ footer small {
   color: white;
   width: 50%;
   padding: 10px;
+}
+
+@media (max-width: 250px) {
+  .logo__text {
+    font-size: 5vw;
+  }
+  .logo__image {
+    width: 5vw;
+    height: auto;
+  }
+}
+@media (max-width: 990px) {
+  .section__clientes {
+    flex-direction: column;
+  }
+  .section__contacto {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .section__contacto > div,
+  .section__contacto iframe {
+    width: 100vw;
+  }
+  .section__contacto iframe {
+    margin: 10px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
